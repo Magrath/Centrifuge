@@ -1,0 +1,174 @@
+8
+
+dir
+64
+svn+ssh://pmagrath@spoon.netsoc.tcd.ie/var/www/vhosts/trac/mediaserv/svn/documentation
+svn+ssh://pmagrath@spoon.netsoc.tcd.ie/var/www/vhosts/trac/mediaserv/svn
+
+
+
+2008-04-29T14:25:06.605062Z
+51
+pmagrath
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+incomplete
+79f5d4c0-1d3c-487a-bdb2-727da0036ec3
+
+Use Case Diagram.graffle
+file
+62
+
+
+
+2008-05-04T20:42:22.000000Z
+23c740fc366853ac9e92c93504c51b7c
+2008-04-29T14:25:06.605062Z
+51
+pmagrath
+has-props
+
+Week10.key
+dir
+
+Code view.txt
+file
+62
+
+
+
+2008-05-04T20:42:22.000000Z
+d0db821426e74b8bfe54c654b0f84e96
+2008-04-20T15:33:29.437169Z
+47
+dalamar
+
+Week11.key
+dir
+
+Week02.key
+dir
+
+Week12.key
+dir
+
+Week04.key
+dir
+
+requirements.doc
+file
+62
+
+
+
+2008-05-04T20:42:22.000000Z
+123e201eeaa271575b8ad382d1af0030
+2008-02-19T15:56:39.584606Z
+5
+pmagrath
+has-props
+
+Final.zip
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Week08.key
+dir
+
+User Testing - 08Apr08.txt
+file
+62
+
+
+
+2008-05-04T20:42:22.000000Z
+e1e595f384479aaf600c93363ed257ce
+2008-04-13T19:34:50.184615Z
+36
+pmagrath
+
+Week09.key
+dir
+
+Week03Final.key
+dir
+
+Part Diagram.graffle
+file
+62
+
+
+
+2008-05-04T20:42:22.000000Z
+52ef55db3dca6b3e87802ab549a1d054
+2008-02-26T10:37:15.776367Z
+8
+pmagrath
+has-props
+
+Pert Chart.graffle
+file
+62
+
+
+
+2008-05-04T20:42:22.000000Z
+b61cc164fb009cc6515756bf18225830
+2008-03-04T15:20:10.501224Z
+21
+pmagrath
+has-props
+
+Week04.ppt
+file
+62
+
+
+
+2008-05-04T20:42:22.000000Z
+5ed4142b79cdfbc26db5ef8da787265d
+2008-03-04T15:20:10.501224Z
+21
+pmagrath
+has-props
+
+Gantt Chart.graffle
+dir
+
+Week03Final.ppt
+file
+62
+
+
+
+2008-05-04T20:42:22.000000Z
+3b328c2ab14e276722b4fe76e4518180
+2008-02-26T15:22:25.041478Z
+17
+pmagrath
+has-props
+
+FinalActual.key
+dir
+

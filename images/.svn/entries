@@ -1,0 +1,54 @@
+8
+
+dir
+62
+svn+ssh://pmagrath@spoon.netsoc.tcd.ie/var/www/vhosts/trac/mediaserv/svn/images
+svn+ssh://pmagrath@spoon.netsoc.tcd.ie/var/www/vhosts/trac/mediaserv/svn
+
+
+
+2008-02-26T16:05:30.492381Z
+19
+nosmo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+79f5d4c0-1d3c-487a-bdb2-727da0036ec3
+
+trac_banner.png
+file
+
+
+
+
+2008-05-04T20:41:54.000000Z
+9da4071cadc9e7defc5cf859172d5791
+2008-02-26T16:05:30.492381Z
+19
+nosmo
+has-props
+
+trac_banner.psd
+file
+
+
+
+
+2008-05-04T20:41:54.000000Z
+18dcf4f4ffd11554229e4345b604cfa7
+2008-02-26T16:05:30.492381Z
+19
+nosmo
+has-props
+

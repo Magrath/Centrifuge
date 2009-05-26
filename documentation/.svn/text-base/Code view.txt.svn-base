@@ -1,0 +1,90 @@
+indexer.py:
+
+	Takes parameters root, uid, type, and webroot
+                Root - Directory containing the media that needs to be added to the database.
+                Uid - User ID that the media belongs to.
+                Type - video type, whether it's a clip, tv show or movie.
+                Webroot - Base url for the file when being served up by apache.
+	
+		It then creates a list of files found under that directory and then sequentially checks for their existence
+		in the database and if not identifies them and adds them to the database.
+	
+	Depends:
+		db.py for database access
+		crawler.py to generate a list of media files.
+		identify.py to generate identity information for files.
+
+crawler.py:
+   Takes a single parameter of a directory.
+	directory - generates a list of files matching a builtin set of extensions that exist 
+	beneath the specificied directory
+
+db.py:
+	Exports services to access a centrifuge database.
+
+	getSQLToken()
+		Creates a token that references the current database connection and associated information.
+	
+	deleteSQLToken()
+		Closes a SQL database connection properly.
+
+	InsertImage()
+		Takes parameters of a sql token, uid, filepath, data regarding the file.
+
+		Inserts the parameters and unpack the video data in seperate components for insertion.
+
+	InsertAudio()
+		Takes parameters of a sql token, uid, filepath, data regarding the file.
+
+		Inserts the parameters and unpack the video data in seperate components for insertion.
+
+	InsertVideo()
+		Takes parameters of a sql token, a title, uid, filepath, data regarding the file, and a
+		webpath.
+
+		Inserts the parameters and unpack the video data in seperate components for insertion.
+
+	InsertVideoClip()
+		Inserts a video that already exists in the database into the clips table.
+
+	InsertVideoTV()
+		Inserts a video that already exists in the database into the TV table.
+
+	InsertVideoMoive()
+		Inserts a video that already exists in the database into the movies table.
+
+	CountExistence()
+		Counts the number of times a filepath appears in the given database.
+
+scraper.py:
+
+	Gets youtube videos.
+
+	Parameters: a youtube video url, and optionally a destination path.
+
+identify.py:
+	
+	Identifies files based on content whether they are video,audio or image.
+
+	Parameters: a single file.
+
+	depends:
+		video.py
+		image.py
+		audio.py
+
+
+video.py:
+	Determines the type of video, along with its' dimensions, and playback time.
+
+	Parameters: a single file.
+
+image.py:
+	Determines the type of image, along with its' dimensions.
+
+	Parameters: a single file.
+
+audio.py:
+	Determines the type of audio, along the artists, album, title information.
+
+	Parameters: a single file.

@@ -1,0 +1,8 @@
+python2.5
+python-hachoir-core
+python-hachoir-metadata
+python-hachoir-parser
+python-eyed3
+python-mysqldb
+ffmpeg
+python-imaging

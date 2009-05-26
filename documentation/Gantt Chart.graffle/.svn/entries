@@ -1,0 +1,54 @@
+8
+
+dir
+62
+svn+ssh://pmagrath@spoon.netsoc.tcd.ie/var/www/vhosts/trac/mediaserv/svn/documentation/Gantt%20Chart.graffle
+svn+ssh://pmagrath@spoon.netsoc.tcd.ie/var/www/vhosts/trac/mediaserv/svn
+
+
+
+2008-04-29T14:25:06.605062Z
+51
+pmagrath
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+79f5d4c0-1d3c-487a-bdb2-727da0036ec3
+
+data.plist
+file
+
+
+
+
+2008-05-04T20:42:21.000000Z
+223bc480da809ffa75f5a45fac229c62
+2008-04-29T14:25:06.605062Z
+51
+pmagrath
+has-props
+
+image1.pdf
+file
+
+
+
+
+2008-05-04T20:42:21.000000Z
+e4855a33086b20888b0ce26d6aecd447
+2008-02-19T15:56:39.584606Z
+5
+pmagrath
+has-props
+

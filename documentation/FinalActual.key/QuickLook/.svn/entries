@@ -1,0 +1,29 @@
+8
+
+dir
+65
+svn+ssh://pmagrath@spoon.netsoc.tcd.ie/var/www/vhosts/trac/mediaserv/svn/documentation/FinalActual.key/QuickLook
+svn+ssh://pmagrath@spoon.netsoc.tcd.ie/var/www/vhosts/trac/mediaserv/svn
+
+
+
+2008-05-06T15:44:17.733465Z
+65
+pmagrath
+
+
+svn:special svn:externals svn:needs-lock
+
+Thumbnail.jpg
+file
+
+
+
+
+2008-05-06T15:13:06.000000Z
+710493df9b0bdda0307dd8a890573b32
+2008-05-06T15:44:17.733465Z
+65
+pmagrath
+has-props
+

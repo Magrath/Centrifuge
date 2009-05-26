@@ -1,0 +1,82 @@
+8
+
+dir
+62
+svn+ssh://pmagrath@spoon.netsoc.tcd.ie/var/www/vhosts/trac/mediaserv/svn/www/Auth
+svn+ssh://pmagrath@spoon.netsoc.tcd.ie/var/www/vhosts/trac/mediaserv/svn
+
+
+
+2008-05-02T18:31:10.234004Z
+55
+dalamar
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+79f5d4c0-1d3c-487a-bdb2-727da0036ec3
+
+Frontend
+dir
+
+Container
+dir
+
+Auth.php
+file
+
+
+
+
+2008-05-04T20:41:53.000000Z
+3db4bed05ee42a45064360c185babcfc
+2008-03-07T10:06:23.251365Z
+23
+pmagrath
+
+Container.php
+file
+
+
+
+
+2008-05-04T20:41:53.000000Z
+e0de203b0ea54c46d3601d55c058273c
+2008-03-07T10:06:23.251365Z
+23
+pmagrath
+
+Controller.php
+file
+
+
+
+
+2008-05-04T20:41:53.000000Z
+5bfdf80905a4165f77acaecc051b29d6
+2008-03-07T10:06:23.251365Z
+23
+pmagrath
+
+Anonymous.php
+file
+
+
+
+
+2008-05-04T20:41:53.000000Z
+d5dadb24a381f9553804292ab4f9a9a3
+2008-03-07T10:06:23.251365Z
+23
+pmagrath
+

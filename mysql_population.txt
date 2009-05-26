@@ -1,0 +1,60 @@
+create table users (  
+	userid INTEGER AUTO_INCREMENT,
+	username VARCHAR(63),
+	password_hash VARCHAR(63),
+	PRIMARY KEY(userid)
+);
+
+create table audio(
+	audioid INTEGER AUTO_INCREMENT,
+	title VARCHAR(255),
+	artist VARCHAR(255),
+	album VARCHAR(255),
+	tracknumber INTEGER,
+	totaltracks INTEGER,
+	tracktitle VARCHAR(255),
+	discnumber INTEGER,
+	totaldiscs INTEGER,
+	filepath VARCHAR(1023),
+	lyrics VARCHAR(5000),
+	format VARCHAR(31),
+	length INTEGER,
+	uploaded_by INTEGER,
+	PRIMARY KEY(audioid)
+);
+
+create table video(
+	videoid INTEGER AUTO_INCREMENT,
+	format VARCHAR(31),
+	filepath VARCHAR(1023),
+	videotitle VARCHAR(255),
+	length INTEGER,
+	uploaded_by INTEGER,
+	PRIMARY KEY(videoid)
+);
+
+create table video_tv(
+	videoid INTEGER,
+	tvshow VARCHAR(255),
+	season INTEGER,
+	episodenumber INTEGER,
+	PRIMARY KEY(videoid),
+	FOREIGN KEY(videoid) REFERENCES video(videoid)
+);
+
+create table video_movies(
+	videoid INTEGER,
+	director VARCHAR(255),
+	imdbid INTEGER,
+	imdbrating INTEGER,
+	PRIMARY KEY(videoid),
+	FOREIGN KEY(videoid) REFERENCES video(videoid)
+);
+
+create table video_clips(
+	videoid INTEGER,
+	clipsource VARCHAR(255),
+	PRIMARY KEY(videoid),
+	FOREIGN KEY(videoid) REFERENCES video(videoid)
+);
+
